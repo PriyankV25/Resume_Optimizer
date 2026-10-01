@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Priyank Saxena | Software Engineer</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+            line-height: 1.55;
+        }
+
+        .resume {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 45px 55px;
+        }
+
+        /* Header */
+        .header {
+            border-bottom: 2px solid #222;
+            padding-bottom: 18px;
+            margin-bottom: 25px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .header .title {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 12px;
+        }
+
+        .contact {
+            /* display: flex; */
+            /* flex-wrap: wrap; */
+            gap: 6px 16px;
+            font-size: 13px;
+            color: #444;
+        }
+
+        .contact a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 27px;
+        }
+
+        .section-title {
+            font-size: 17px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+            margin-bottom: 14px;
+        }
+
+        /* Summary */
+        .summary {
+            font-size: 14px;
+            text-align: justify;
+        }
+
+        /* Experience */
+        .experience-item,
+        .project-item,
+        .education-item,
+        .certification-item,
+        .achievement-item {
+            margin-bottom: 20px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .item-title {
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .item-subtitle {
+            font-size: 13px;
+            color: #555;
+            margin-top: 2px;
+        }
+
+        .date {
+            font-size: 13px;
+            color: #555;
+            white-space: nowrap;
+        }
+
+        ul {
+            margin-top: 7px;
+            padding-left: 19px;
+        }
+
+        li {
+            font-size: 13.5px;
+            margin-bottom: 5px;
+        }
+
+        /* Skills */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px 25px;
+        }
+
+        .skill-group h3 {
+            font-size: 13.5px;
+            margin-bottom: 3px;
+        }
+
+        .skill-group p {
+            font-size: 13px;
+            color: #444;
+        }
+
+        /* Projects */
+        .project-item {
+            padding-bottom: 5px;
+        }
+
+        .project-links {
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        .project-links a {
+            color: #333;
+            text-decoration: none;
+            margin-right: 12px;
+        }
+
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+
+        .tech-stack {
+            font-size: 12px;
+            color: #555;
+            margin-top: 7px;
+        }
+
+        .tech-stack strong {
+            color: #333;
+        }
+
+        /* Education */
+        .education-item {
+            margin-bottom: 14px;
+        }
+
+        /* Certifications */
+        .certifications {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px 25px;
+        }
+
+        .certification-item {
+            margin-bottom: 5px;
+        }
+
+        .certification-item a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .certification-item a:hover {
+            text-decoration: underline;
+        }
+
+        /* Achievements */
+        .achievement-item {
+            margin-bottom: 8px;
+        }
+
+        /* Languages */
+        .languages {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .language {
+            font-size: 13px;
+        }
+
+        .language strong {
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .language span {
+            color: #555;
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 1px solid #ccc;
+            padding-top: 12px;
+            margin-top: 30px;
+            font-size: 11px;
+            color: #777;
+            text-align: center;
+        }
+
+        /* Responsive */
+        @media (max-width: 700px) {
+            .resume {
+                margin: 0;
+                padding: 30px 25px;
+            }
+
+            .item-header {
+                flex-direction: column;
+                gap: 2px;
+            }
+
+            .skills-grid,
+            .certifications,
+            .languages {
+                grid-template-columns: 1fr;
+            }
+
+            .contact {
+                flex-direction: column;
+                gap: 3px;
+            }
+        }
+
+        /* Print */
+        @media print {
+            body {
+                background: #fff;
+            }
+
+            .resume {
+                max-width: none;
+                margin: 0;
+                padding: 25px 35px;
+            }
+
+            a {
+                color: #222 !important;
+                text-decoration: none !important;
+            }
+
+            section {
+                break-inside: avoid;
+            }
+
+            .project-item,
+            .experience-item {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <header class="header" style="text-align: center;">
+
+        <h1>Priyank Saxena</h1>
+
+        <div class="title" style="align-items: center; text-align: center;">
+            Software Engineer
+        </div>
+
+        <div class="contact" style="text-align: center;">
+            <div class="address" style="text-align: center; display: flex; gap: 20px; align-items: center; justify-content: center;">
+                <span>Noida, Uttar Pradesh, India</span>
+
+                <span>
+                    <a href="mailto:priyank.saxena.dev@gmail.com">
+                        priyank.saxena.dev@gmail.com
+                    </a>
+                </span>
+
+                <span>+91 8077781884</span>
+
+                <span>+91 9560290436</span>
+            </div>
+            <div class="linkAddress" style="text-align: center; word-spacing: 50px;">
+                <span>
+                    <a href="https://priyank-saxena-portfolio.onrender.com/"
+                    target="_blank">
+                        Portfolio
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://github.com/PriyankV25"
+                    target="_blank">
+                        GitHub
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://www.linkedin.com/in/priyanksaxenaps/"
+                    target="_blank">
+                        LinkedIn
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://x.com/i_priyank25"
+                    target="_blank">
+                        X
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://huggingface.co/priyankDev"
+                    target="_blank">
+                        Hugging Face
+                    </a>
+                </span>
+
+                <span>
+                    <a href="https://dev.to/priyank_dev"
+                    target="_blank">
+                        Dev.to
+                    </a>
+                </span>
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- SUMMARY -->
+    <section>
+
+        <h2 class="section-title">Professional Summary</h2>
+
+        <p class="summary">
+            Software Engineer specializing in automation, DevOps workflows,
+            and enterprise endpoint remediation across Windows and macOS
+            environments. Experienced in designing and implementing one-click
+            troubleshooters, silent software installers, and Microsoft Update
+            metadata and patch intelligence pipelines. Proficient in Python,
+            PowerShell, Bash, C#, Selenium, Pandas, and data analytics to
+            automate diagnostics, root-cause analysis, and operational
+            workflows, reducing manual effort and improving endpoint
+            reliability and system stability within large-scale IT
+            environments.
+        </p>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section>
+
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-group">
+                <h3>Programming</h3>
+                <p>
+                    Python, PowerShell, Bash, Shell Scripting, C#,
+                    JavaScript, HTML, CSS
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Automation</h3>
+                <p>
+                    Automation Frameworks, Endpoint Remediation,
+                    Test Automation, Selenium, JMeter, BeautifulSoup,
+                    ITSM, RCA, CLI
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>DevOps</h3>
+                <p>
+                    DevOps Pipelines, CI/CD, Docker, Vagrant, Git,
+                    Kubernetes, Kind, Grafana, Prometheus, Argo CD, Helm
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Cloud</h3>
+                <p>Microsoft Azure, AWS</p>
+            </div>
+
+            <div class="skill-group">
+                <h3>AI & Machine Learning</h3>
+                <p>
+                    Generative AI, LLM, LangChain, LangGraph, RAG,
+                    RAG Pipelines, Vector Databases, Multi-Agent Systems,
+                    AI Agents
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Operating Systems</h3>
+                <p>
+                    Microsoft Windows, macOS, Linux, Ubuntu
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Databases</h3>
+                <p>
+                    MySQL, MongoDB, PostgreSQL, Supabase
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Tools & Frameworks</h3>
+                <p>
+                    Pandas, NumPy, Power BI, Flask, Bootstrap, Postman
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Data Analytics</h3>
+                <p>
+                    Data Analysis, Dashboards, Reporting
+                </p>
+            </div>
+
+            <div class="skill-group">
+                <h3>Architecture & APIs</h3>
+                <p>
+                    REST APIs, Solution Architecture
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section>
+
+        <h2 class="section-title">Professional Experience</h2>
+
+        <div class="experience-item">
+
+            <div class="item-header">
+
+                <div>
+                    <div class="item-title">
+                        Software Engineer — Progressive Techserve
+                    </div>
+
+                    <div class="item-subtitle">
+                        Workelevate · Noida, India · Full-time
+                    </div>
+                </div>
+
+                <div class="date">
+                    Sep 2023 – Present
+                </div>
+
+            </div>
+
+            <ul>
+
+                <li>
+                    Progressed from Trainee Engineer to Software Engineer,
+                    contributing to enterprise endpoint support,
+                    troubleshooting, automation, and IT service operations.
+                </li>
+
+                <li>
+                    Developed 100+ one-click endpoint troubleshooters and
+                    50+ silent software installers for Windows environments,
+                    reducing manual support effort and MTTR.
+                </li>
+
+                <li>
+                    Built 40+ macOS remediation solutions using Bash and
+                    CLI tools to support cross-platform enterprise
+                    environments.
+                </li>
+
+                <li>
+                    Designed 20+ automation troubleshooters for the
+                    Root Cause Analysis (RCA) module, improving issue
+                    resolution accuracy and system reliability.
+                </li>
+
+                <li>
+                    Created metadata-driven automation pipelines for
+                    patch intelligence, validation, and reporting.
+                </li>
+
+                <li>
+                    Contributed to research, development, and automation
+                    initiatives, enhancing product capabilities and
+                    extending key features.
+                </li>
+
+                <li>
+                    Maintained detailed technical documentation and SOPs
+                    for enterprise automation workflows.
+                </li>
+
+                <li>
+                    Provided dedicated technical services and performed
+                    data analysis for HP DAAS PI as part of service delivery
+                    for Lupin Limited.
+                </li>
+
+                <li>
+                    Gained hands-on experience in scripting, system
+                    diagnostics, deployment, monitoring, and validation
+                    of automated solutions.
+                </li>
+
+            </ul>
+
+            <div class="tech-stack">
+                <strong>Achievement:</strong>
+                Catalyst in Client Engagement Award
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section>
+
+        <h2 class="section-title">Projects</h2>
+
+
+        <!-- Project 1 -->
+        <div class="project-item">
+
+            <div class="item-title">
+                Troubleshooter Module — Remediation & Automation Scripts
+            </div>
+
+            <ul>
+
+                <li>
+                    Engineered large-scale endpoint remediation automation
+                    using 200+ scripts developed with PowerShell, Bash,
+                    C#, and CLI tools.
+                </li>
+
+                <li>
+                    Delivered client-specific recommendations and 150+
+                    silent software installers, reducing support effort.
+                </li>
+
+                <li>
+                    Contributed to continuous improvement of automated
+                    diagnostics and remediation workflows.
+                </li>
+
+            </ul>
+
+            <div class="tech-stack">
+                <strong>Technologies:</strong>
+                PowerShell, C#, Bash, CMD, Python, Batch Script
+            </div>
+
+        </div>
+
+
+        <!-- Project 2 -->
+        <div class="project-item">
+
+            <div class="item-title">
+                Microsoft Update Metadata Automation Engine
+            </div>
+
+            <ul>
+
+                <li>
+                    Designed and developed a Python-based metadata
+                    automation engine to scrape, process, filter, and
+                    analyze Microsoft Update Catalog data.
+                </li>
+
+                <li>
+                    Implemented query-based scraping using Selenium and
+                    BeautifulSoup for automated and targeted collection
+                    of Microsoft update metadata.
+                </li>
+
+                <li>
+                    Built data transformation and reporting pipelines
+                    using Pandas and OpenPyXL to convert raw catalog data
+                    into structured patch intelligence.
+                </li>
+
+                <li>
+                    Developed a Flask-based web UI providing analytical
+                    dashboards, metadata filtering, query-driven scraping,
+                    and administrative operations.
+                </li>
+
+                <li>
+                    Integrated Supabase as a cloud database for persistent
+                    storage and management of patch metadata.
+                </li>
+
+                <li>
+                    Automated monthly Microsoft update metadata collection,
+                    improving the speed and consistency of patch
+                    intelligence generation.
+                </li>
+
+            </ul>
+
+            <div class="tech-stack">
+                <strong>Technologies:</strong>
+                Python, Flask, Selenium, BeautifulSoup, Pandas,
+                OpenPyXL, Requests, Matplotlib, Plotly, Supabase,
+                REST APIs, Web Scraping
+            </div>
+
+        </div>
+
+
+        <!-- Project 3 -->
+        <div class="project-item">
+
+            <div class="item-title">
+                Lupin Enterprise IT Solutions — HP DAAS & Workelevate
+            </div>
+
+            <ul>
+
+                <li>
+                    Served as Report Administrator and PI Analyst for the
+                    HP DAAS environment supporting Lupin, performing system
+                    reliability, Digital Employee Experience (DEX), and
+                    IT workflow analysis.
+                </li>
+
+                <li>
+                    Analyzed endpoint and service data to identify recurring
+                    issues, operational trends, and improvement opportunities.
+                </li>
+
+                <li>
+                    Built and maintained dashboards and analytical reports
+                    for endpoint health, service performance, DEX metrics,
+                    and IT operational workflows.
+                </li>
+
+                <li>
+                    Worked on a Driver Upgrade Automation Framework for
+                    HP devices to streamline driver update and endpoint
+                    maintenance workflows.
+                </li>
+
+                <li>
+                    Contributed to Workelevate integrations with enterprise
+                    servers, chatbot APIs, and ITSM systems.
+                </li>
+
+                <li>
+                    Supported chatbot and administrative console
+                    functionality through API integrations, workflow
+                    configuration, testing, and operational enhancements.
+                </li>
+
+            </ul>
+
+            <div class="tech-stack">
+                <strong>Technologies:</strong>
+                Data Analysis, DEX, Dashboarding, Reporting,
+                Endpoint Analytics, RCA, Automation, API Integration,
+                Chatbot Integration, ITSM Integration
+            </div>
+
+        </div>
+
+
+        <!-- Project 4 -->
+        <div class="project-item">
+
+            <div class="item-title">
+                AIRO — Attendance Intelligence & Recognition Operations
+            </div>
+
+            <ul>
+
+                <li>
+                    Developed a full-stack facial-recognition attendance
+                    system using Python, Flask, OpenCV, Scikit-learn,
+                    Supabase, JavaScript, and Plotly.
+                </li>
+
+                <li>
+                    Implemented a computer-vision pipeline using Haar
+                    Cascade for face detection and distance-weighted
+                    KNN classification.
+                </li>
+
+                <li>
+                    Built browser-based real-time camera recognition using
+                    JavaScript getUserMedia(), enabling cloud deployment
+                    without server-side webcams.
+                </li>
+
+                <li>
+                    Integrated Supabase PostgreSQL, Storage, and
+                    Authentication for employee profiles, face samples,
+                    attendance records, and administrator access.
+                </li>
+
+                <li>
+                    Implemented automated daily attendance processing,
+                    duplicate prevention, Plotly analytics, storage
+                    monitoring, and CSV export.
+                </li>
+
+                <li>
+                    Designed a responsive AI command-center interface
+                    with live camera recognition status and analytical
+                    dashboards.
+                </li>
+
+            </ul>
+
+            <div class="tech-stack">
+                <strong>Technologies:</strong>
+                Python, Flask, OpenCV, Scikit-learn, NumPy, Pandas,
+                JavaScript, Plotly, Supabase, PostgreSQL, REST APIs,
+                Computer Vision, KNN
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/PriyankV25/AIRO-Attendance.git"
+                   target="_blank">
+                    GitHub
+                </a>
+
+                <a href="https://airo-attendance.onrender.com"
+                   target="_blank">
+                    Live Demo
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- Project 5 -->
+        <div class="project-item">
+
+            <div class="item-title">
+                Kubernetes GitOps & Observability Platform
+            </div>
+
+            <ul>
+
+                <li>
+                    Deployed and managed a containerized microservices
+                    application on Kubernetes using Kind, configuring
+                    Pods, Deployments, Services, and cluster resources.
+                </li>
+
+                <li>
+                    Implemented GitOps-based continuous delivery using
+                    Argo CD and declarative Kubernetes configuration.
+                </li>
+
+                <li>
+                    Used Helm for Kubernetes application packaging,
+                    configuration management, and repeatable deployments.
+                </li>
+
+                <li>
+                    Integrated Prometheus and Grafana for metrics collection,
+                    workload monitoring, resource analysis, and
+                    observability dashboards.
+                </li>
+
+                <li>
+                    Configured AWS inbound access and security rules and
+                    used Kubernetes port-forwarding for controlled
+                    application access and troubleshooting.
+                </li>
+
+                <li>
+                    Troubleshot Kubernetes workloads, services, containers,
+                    and connectivity using kubectl, logs, events, and
+                    monitoring metrics.
+                </li>
+
+            </ul>
+
+            <div class="tech-stack">
+                <strong>Technologies:</strong>
+                Kubernetes, Kind, Helm, Argo CD, Prometheus, Grafana,
+                Docker, Linux, AWS, Git, kubectl, GitOps, CI/CD
+            </div>
+
+            <div class="project-links">
+                <a href="https://snapshots.raintank.io/dashboard/snapshot/GsXwaX7GOAGAut56ptSoU2M0YSffO4LJ"
+                   target="_blank">
+                    Grafana Dashboard
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section>
+
+        <h2 class="section-title">Education</h2>
+
+
+        <div class="education-item">
+
+            <div class="item-header">
+
+                <div>
+                    <div class="item-title">
+                        Bachelor of Technology — Computer Science & Engineering
+                    </div>
+
+                    <div class="item-subtitle">
+                        Dr. A.P.J. Abdul Kalam Technical University · Lucknow, India
+                    </div>
+                </div>
+
+                <div class="date">
+                    Aug 2019 – Jul 2023
+                </div>
+
+            </div>
+
+            <div class="item-subtitle">
+                CGPA: 8.55 / 10
+            </div>
+
+        </div>
+
+
+        <div class="education-item">
+
+            <div class="item-header">
+
+                <div>
+                    <div class="item-title">
+                        Senior Secondary — Science
+                    </div>
+
+                    <div class="item-subtitle">
+                        D.A.V Public School · Ballabhgarh, Faridabad, India
+                    </div>
+                </div>
+
+                <div class="date">
+                    Apr 2017 – Mar 2019
+                </div>
+
+            </div>
+
+            <div class="item-subtitle">
+                Percentage: 71%
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CERTIFICATIONS -->
+    <section>
+
+        <h2 class="section-title">Certifications & Learning</h2>
+
+        <div class="certifications">
+
+            <div class="certification-item">
+                <strong>Java</strong> — HackerRank
+            </div>
+
+            <div class="certification-item">
+                <strong>Flask Python</strong> — Great Learning
+            </div>
+
+            <div class="certification-item">
+                <strong>Linux Tutorial</strong> — Great Learning
+            </div>
+
+            <div class="certification-item">
+                <strong>Google IT Support Fundamentals</strong> — Coursera
+            </div>
+
+            <div class="certification-item">
+                <strong>Blockchain Technology & Management</strong> — Amity
+            </div>
+
+            <div class="certification-item">
+                <strong>Python</strong> — LinkedIn
+            </div>
+
+            <div class="certification-item">
+                <strong>Web Development</strong> — Internshala
+            </div>
+
+            <div class="certification-item">
+                <strong>GDG DevFest India</strong> — Google Developer Groups
+            </div>
+
+            <div class="certification-item">
+                <strong>Startup India Learning Program</strong> — upGrad
+            </div>
+
+            <div class="certification-item">
+                <strong>Overview of Web GIS Technology</strong> — ISRO - IIRS
+            </div>
+
+            <div class="certification-item">
+                <strong>Computer Basic Exam</strong> — Techview Team
+            </div>
+
+            <div class="certification-item">
+                <strong>The Complete Python Pro Bootcamp</strong> — Udemy
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ACHIEVEMENTS -->
+    <section>
+
+        <h2 class="section-title">Achievements</h2>
+
+        <div class="achievement-item">
+            <strong>Catalyst in Client Engagement Award</strong>
+            — Workelevate · January 2025
+        </div>
+
+        <div class="achievement-item">
+            <strong>Best Personality Award</strong>
+            — Farewell Campus Event · May 2023
+        </div>
+
+    </section>
+
+
+    <!-- LANGUAGES -->
+    <section>
+
+        <h2 class="section-title">Languages</h2>
+
+        <div class="languages">
+
+            <div class="language">
+                <strong>English</strong>
+                <span>C1 — Fluent / Professional</span>
+            </div>
+
+            <div class="language">
+                <strong>Hindi</strong>
+                <span>Native</span>
+            </div>
+
+            <div class="language">
+                <strong>Korean</strong>
+                <span>A1 — Beginner</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="footer">
+        Priyank Saxena · Software Engineer · Noida, India
+    </div>
+
+</div>
+
+</body>
+</html>

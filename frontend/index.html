@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resume Optimizer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="/api/config.js"></script>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+<div id="toast-root"></div>
+<section id="login-view" class="login-shell">
+  <div class="aurora aurora-a"></div><div class="aurora aurora-b"></div><div class="grid-noise"></div>
+  <div class="login-card glass">
+    <div class="brand-mark"><span>R</span><i>✦</i></div>
+    <div class="eyebrow">PRIVATE RESUME WORKSPACE</div>
+    <h1>Resume<span>Optimizer</span></h1>
+    <p class="muted">Build, tailor, score and export a resume engineered for the role in front of you.</p>
+    <form id="login-form">
+      <label>Email<input id="login-email" type="email" autocomplete="username" required placeholder="you@example.com"></label>
+      <label>Password<div class="password-wrap"><input id="login-password" type="password" autocomplete="current-password" required placeholder="••••••••"><button type="button" class="icon-btn" id="toggle-password">◉</button></div></label>
+      <button class="primary-btn wide" type="submit"><span>Enter workspace</span><span>↗</span></button>
+      <div id="login-error" class="error-text"></div>
+    </form>
+    <div class="login-note">Admin access only · Authentication powered by Supabase</div>
+  </div>
+</section>
+
+<section id="app-view" class="app-shell hidden">
+  <aside class="sidebar glass">
+    <div class="side-brand"><div class="brand-mark small"><span>R</span></div><div><strong>Resume</strong><small>OPTIMIZER</small></div></div>
+    <div class="user-pill"><div class="avatar">P</div><div><strong id="user-email">Admin</strong><small>Private workspace</small></div></div>
+    <nav id="nav"></nav>
+    <button id="logout-btn" class="ghost-btn logout">↪ Sign out</button>
+  </aside>
+  <main class="main">
+    <header class="topbar"><div><div class="eyebrow" id="page-eyebrow">CONTROL CENTER</div><h2 id="page-title">Dashboard</h2></div><div class="top-actions"><span class="status-dot"></span><span>Workspace online</span></div></header>
+    <div id="page-content"></div>
+  </main>
+</section>
+<script src="/static/js/app.js"></script>
+</body></html>

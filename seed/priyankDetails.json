@@ -1,0 +1,509 @@
+{
+  "basics": {
+    "name": "Priyank Saxena",
+    "title": "Software Engineer",
+    "summary": "Software Engineer specializing in automation, DevOps workflows, and enterprise endpoint remediation across Windows and macOS environments. Experienced in designing and implementing one-click troubleshooters, silent software installers, and  Microsoft Update metadata and patch intelligence pipelines. Proficient in Python, PowerShell, Bash, C#, Selenium, Pandas, and data analytics to automate diagnostics, root-cause analysis, and operational workflows, reducing manual effort and improving endpoint reliability and system stability within large-scale IT environments.",
+    "location": {
+      "city": "Noida",
+	  "State": "Uttar Pradesh",
+      "country": "India"
+    },
+    "contact": {
+      "email": "priyank.saxena.dev@gmail.com",
+      "phone": [
+	  {
+		"country_code": "+91",
+		"number": "8077781884",
+		"type": "mobile"
+	  }, {
+		"country_code": "+91",
+		"number": "9560290436",
+		"type": "mobile"
+	  }],
+      "website": "https://priyank-saxena-portfolio.onrender.com/",
+      "github": "https://github.com/PriyankV25",
+      "linkedin": "https://www.linkedin.com/in/priyanksaxenaps/",
+	  "x": "https://x.com/i_priyank25",
+	  "hugging_face": "https://huggingface.co/priyankDev",
+	  "dev_to": "https://dev.to/priyank_dev"
+    }
+  },
+
+	"skills": {
+	  "programming": [
+		"Python",
+		"PowerShell",
+		"Bash",
+		"Shell Scripting",
+		"C#",
+		"JavaScript",
+		"HTML",
+		"CSS"
+	  ],
+
+	  "automation": [
+		"Automation Frameworks",
+		"Endpoint Remediation",
+		"Test Automation",
+		"Selenium",
+		"JMeter",
+		"BeautifulSoup",
+		"IT Service Management",
+		"RCA",
+		"CLI"
+	  ],
+
+	  "devops": [
+		"DevOps Pipelines",
+		"CI/CD",
+		"Docker",
+		"Vagrant",
+		"Git",
+		"Kubernetes",
+		"kind (Kubernetes IN Docker)",
+		"Grafana",
+		"Prometheus",
+		"Argo CD",
+		"Helm"
+	  ],
+
+	  "cloud": [
+		"Microsoft Azure",
+		"AWS"
+	  ],
+
+	  "ai_ml": [
+		"Generative AI",
+		"LLM",
+		"LangChain",
+		"LangGraph",
+		"RAG",
+		"RAG Pipeline",
+		"Vector Databases",
+		"Multi-Agent Systems",
+		"AI Agents"
+	  ],
+
+	  "operating_systems": [
+		"Microsoft Windows",
+		"macOS",
+		"Linux",
+		"Ubuntu"
+	  ],
+
+	  "databases": [
+		"MySQL",
+		"MongoDB",
+		"PostgreSQL",
+		"Supabase"
+	  ],
+
+	  "tools": [
+	  "Pandas",
+	  "NumPy",
+	  "Power BI",
+	  "Flask",
+	  "Bootstrap",
+	  "Postman"
+	],
+
+	"data_analytics": [
+	  "Data Analysis",
+	  "Dashboards",
+	  "Reporting"
+	],
+
+	"architecture_and_apis": [
+	  "REST APIs",
+	  "Solution Architecture"
+	]
+	},
+
+  "experience": [
+    {
+      "company": {
+	  "company_name": "Progressive Techserve",
+	  "company_link": "https://www.progressive.in/",
+	  "brand": "Workelevate",
+	  "brand_link": "https://www.workelevate.com/"
+	  },
+      "position": "Software Engineer",
+      "location": "Noida, India",
+      "start_date": "2023-09",
+      "end_date": "Present",
+      "employment_type": "full_time",
+      "description": [
+      "Progressed from Trainee Engineer to Software Engineer, contributing to enterprise endpoint support, troubleshooting, automation, and IT service operations.",
+      "Developed 100+ one-click endpoint troubleshooters and 50+ silent software installers for Windows environments, reducing manual support effort and MTTR.",
+      "Built 40+ macOS remediation solutions using Bash and CLI tools to support cross-platform enterprise environments.",
+      "Designed 20+ automation troubleshooters for the Root Cause Analysis (RCA) module, improving issue resolution accuracy and system reliability.",
+      "Created metadata-driven automation pipelines for patch intelligence, validation, and reporting.",
+      "Actively contributed to research, development, and automation initiatives, enhancing product capabilities and extending the reach of key features.",
+      "Maintained detailed technical documentation and SOPs for enterprise automation workflows.",
+      "Provided dedicated technical services and performed data analysis for HP-DAAS PI as part of service delivery for Lupin Limited, resolving issues efficiently and maintaining client satisfaction.",
+      "Gained hands-on experience in scripting, system diagnostics, deployment, monitoring, and validation of automated solutions."
+    ],
+      "achievements": [
+		"Catalyst in Client Engagement Award"
+	  ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Troubleshooter Module - Remediation & Automation Scripts",
+      "description": [
+	  "Engineered large-scale endpoint remediation automation using 200+ scripts developed with PowerShell, Bash, C#, and CLI tools.",
+	  "Delivered client-specific recommendations and 150+ silent software installers, significantly reducing support tickets.",
+	  "Contributed to continuous improvement of automated diagnostics and remediation workflows."
+	  ],
+      "technical_skills": ["PowerShell","C#","Bash","CMD","Python","Batch Script"],
+      "highlights": [
+		"200+ endpoint remediation scripts",
+		"150+ silent software installers",
+		"Cross-platform automation across Windows and macOS",
+		"Client-specific troubleshooting and remediation solutions",
+		"Automated diagnostics and remediation workflows",
+		"Reduced manual troubleshooting and support effort"
+		],
+      "github": "",
+      "url": ""
+    },
+	{
+		"name": "Microsoft Update Metadata Automation Engine ",
+		"description": [
+			"Designed and developed a Python-based metadata automation engine to scrape, process, filter, and analyze Microsoft Update Catalog data.",
+			"Implemented query-based scraping using Selenium and BeautifulSoup, enabling automated and targeted collection of Microsoft update metadata.",
+			"Built data transformation and reporting pipelines using Pandas and OpenPyXL to convert raw catalog data into structured patch intelligence.",
+			"Developed a fully functional web-based UI with Flask, providing analytical dashboards, metadata filtering, query-driven scraping, and administrative operations.",
+			"Integrated Supabase as a live cloud database for persistent storage and management of patch metadata.",
+			"Implemented administrative capabilities for metadata configuration, deletion, filtering, and operational management through the application interface.",
+			"Automated the monthly Microsoft update metadata collection process, reducing manual effort and improving the speed and consistency of patch intelligence generation."
+
+		],
+		"technical_skills": [
+			"Python",
+			"Flask",
+			"Selenium",
+			"BeautifulSoup",
+			"Pandas",
+			"OpenPyXL",
+			"Requests",
+			"Matplotlib",
+			"Plotly",
+			"Supabase",
+			"REST APIs",
+			"Web Scraping",
+			"Data Processing",
+			"Data Visualization"
+		],
+		"highlights": {
+			"application_type": "Full-Stack Automation & Patch Intelligence Platform",
+			"data_source": "Microsoft Update Catalog",
+			"database": "Supabase Cloud",
+			"interface": "Flask-based Web UI",
+			"key_capabilities": [
+			  "Query-based metadata scraping",
+			  "Patch metadata filtering",
+			  "Analytical dashboards",
+			  "Metadata configuration",
+			  "Metadata deletion and administration",
+			  "Automated data transformation and reporting"
+			],
+			"impact": [
+				"Reduced manual effort involved in recurring Microsoft monthly update metadata collection.",
+				"Improved the speed, consistency, and accessibility of patch intelligence data for enterprise patch management.",
+				"Enabled centralized analysis and operational management of patch metadata through a single web-based platform."
+			]
+		  },
+		"github": "",
+		"url": ""		  
+		
+	},
+	{
+		"name": "Lupin Enterprise IT Solutions – HP DAAS & Workelevate",
+		"description": [
+		    "Served as Report Administrator and PI Analyst for the HP DAAS environment supporting Lupin, performing system reliability, Digital Employee Experience (DEX), and IT workflow analysis.",
+			"Analyzed endpoint and service data to identify recurring issues, operational trends, and improvement opportunities, providing technical recommendations for troubleshooting and resolution.",
+			"Built and maintained dashboards and analytical reports to monitor endpoint health, service performance, DEX metrics, and IT operational workflows.",
+			"Worked on a Driver Upgrade Automation Framework for HP devices to streamline driver update and endpoint maintenance workflows.",
+			"Contributed to the integration of the Workelevate platform with enterprise servers, chatbot APIs, and ITSM systems to enable automated workflows and service operations.",
+			"Worked on making the Workelevate chatbot and administrative console functional by supporting API integrations, workflow configuration, testing, and operational enhancements."
+		],
+		"technical_skills": [
+			"Data Analysis",
+			"Digital Employee Experience (DEX)",
+			"Dashboarding",
+			"Reporting",
+			"Endpoint Analytics",
+			"Root Cause Analysis",
+			"Technical Troubleshooting",
+			"Automation",
+			"Driver Upgrade Automation",
+			"API Integration",
+			"Chatbot Integration",
+			"ITSM Integration",
+			"Server Integration"
+	  ],
+	    "highlights": {
+			"client": "Lupin",
+			"technology_platforms": [
+			  "HP DAAS",
+			  "Workelevate"
+			],
+			"key_areas": [
+			  "System Reliability Analysis",
+			  "DEX Analysis",
+			  "IT Workflow Analysis",
+			  "Endpoint Management",
+			  "Driver Upgrade Automation",
+			  "Chatbot Integration",
+			  "ITSM Integration",
+			  "Enterprise API Integration"
+			]
+		},
+		"github": "",
+		"url": ""
+	},
+	{
+	  "name": "AIRO — Attendance Intelligence & Recognition Operations",
+
+	  "description": [
+		"Developed a full-stack facial-recognition attendance system using Python, Flask, OpenCV, Scikit-learn, Supabase, JavaScript, and Plotly to automate employee identification and attendance marking.",
+		"Implemented a computer-vision pipeline using Haar Cascade for face detection and distance-weighted KNN classification with up to 5 neighbors, operating on normalized 50×50 face representations.",
+		"Built browser-based real-time camera recognition using JavaScript getUserMedia(), removing dependency on server-side webcams and enabling cloud deployment.",
+		"Integrated Supabase PostgreSQL, Storage, and Authentication for employee profiles, biometric face samples, attendance records, and secure administrator access with private biometric storage.",
+		"Implemented automated daily attendance processing, database-level duplicate prevention, interactive Plotly analytics, storage-utilization tracking, and CSV export capabilities.",
+		"Designed a responsive AI command-center interface with glassmorphism styling, live camera and recognition status indicators, and analytical dashboards.",
+		"Structured the application architecture to support future migration from traditional KNN-based recognition to CNN and deep face-embedding models."
+	  ],
+
+	  "technical_skills": [
+		"Python",
+		"Flask",
+		"OpenCV",
+		"Scikit-learn",
+		"NumPy",
+		"Pandas",
+		"JavaScript",
+		"Plotly",
+		"Supabase",
+		"PostgreSQL",
+		"Supabase Storage",
+		"Supabase Authentication",
+		"Computer Vision",
+		"Face Recognition",
+		"Haar Cascade",
+		"KNN",
+		"REST APIs",
+		"Cloud Deployment"
+	  ],
+
+	  "highlights": {
+		"application_type": "Full-Stack AI & Computer Vision Application",
+		"recognition_pipeline": [
+		  "Haar Cascade Face Detection",
+		  "Distance-Weighted KNN Classification",
+		  "50×50 Normalized Face Representations",
+		  "Real-Time Browser Camera Recognition"
+		],
+		"key_capabilities": [
+		  "Automated Employee Recognition",
+		  "Automatic Daily Attendance",
+		  "Duplicate Attendance Prevention",
+		  "Real-Time Camera Processing",
+		  "Interactive Analytics Dashboards",
+		  "CSV Data Export",
+		  "Storage Utilization Monitoring",
+		  "Administrator Authentication",
+		  "Private Biometric Storage"
+		],
+		"deployment": {
+		  "type": "Cloud",
+		  "platform": "Render"
+		}
+	  },
+	  "github": "https://github.com/PriyankV25/AIRO-Attendance.git",
+	  "url": "https://airo-attendance.onrender.com"
+	},
+	{
+	  "name": "Kubernetes GitOps & Observability Platform",
+	  "description": [
+		"Deployed and managed a containerized microservices application on Kubernetes using Kind, configuring Pods, Deployments, Services, and cluster resources.",
+		"Implemented GitOps-based continuous delivery using Argo CD, managing Kubernetes configurations declaratively through Git.",
+		"Used Helm for Kubernetes application packaging, configuration management, and repeatable deployments.",
+		"Integrated Prometheus and Grafana for metrics collection, Kubernetes workload monitoring, resource utilization analysis, and observability dashboards.",
+		"Configured AWS inbound access and security rules and used Kubernetes port-forwarding for controlled application access, testing, and troubleshooting.",
+		"Troubleshot Kubernetes workloads, services, containers, and connectivity using kubectl, container logs, Kubernetes events, and monitoring metrics."
+	  ],
+
+	  "technical_skills": [
+		"Kubernetes",
+		"Kind",
+		"Helm",
+		"Argo CD",
+		"Prometheus",
+		"Grafana",
+		"Docker",
+		"Linux",
+		"AWS",
+		"Git",
+		"kubectl",
+		"GitOps",
+		"Container Orchestration",
+		"CI/CD",
+		"Observability",
+		"Monitoring"
+	  ],
+
+	  "highlights": {
+		"project_type": "DevOps & Kubernetes Learning Project",
+		"platform": "Kubernetes",
+		"key_capabilities": [
+		  "GitOps Continuous Delivery",
+		  "Kubernetes Workload Management",
+		  "Helm-based Deployment",
+		  "Prometheus Metrics Collection",
+		  "Grafana Observability Dashboards",
+		  "Containerized Microservices",
+		  "Kubernetes Troubleshooting",
+		  "AWS Network and Access Configuration"
+		],
+		"observability": [
+		  "Workload Monitoring",
+		  "Resource Utilization",
+		  "Container Metrics",
+		  "Kubernetes Health Monitoring"
+		]
+	  },
+	  "github":"",
+	  "url": "https://snapshots.raintank.io/dashboard/snapshot/GsXwaX7GOAGAut56ptSoU2M0YSffO4LJ?from=2026-09-08T13:03:32.136Z&to=2026-09-08T13:18:32.136Z&timezone=browser&var-origin_prometheus=&var-Node=$__all&var-NameSpace=$__all&var-Container=$__all&var-Pod=$__all&refresh=1h"
+	  
+	}
+  ],
+
+	"education": [
+	  {
+		"institution": "Dr. A.P.J. Abdul Kalam Technical University",
+		"degree": "Bachelor of Technology (B.Tech)",
+		"field": "Computer Science and Engineering",
+		"level": "undergraduate",
+		"start_date": "2019-08",
+		"end_date": "2023-07",
+		"location": "Lucknow, India",
+		"grade": {
+		  "value": "8.55",
+		  "type": "CGPA"
+		}
+	  },
+	  {
+		"institution": "D.A.V Public School",
+		"degree": "Senior Secondary (Class XII)",
+		"field": "Science",
+		"level": "secondary",
+		"start_date": "2017-04",
+		"end_date": "2019-03",
+		"location": "Ballabhgarh, Faridabad, India",
+		"grade": {
+		  "value": "71",
+		  "type": "Percentage"
+		}
+	  }
+	],
+
+  "certifications": [
+	  {
+		"name": "Java",
+		"issuer": "HackerRank",
+		"url": "https://drive.google.com/file/d/1SrrWGwLOfBxCP5BdzjHfdGPZJvR-L1PN/view?usp=drive_link"
+	  },
+	  {
+		"name": "Flask Python",
+		"issuer": "Great Learning",
+		"url": "https://drive.google.com/file/d/1WUSdRQWDHXS0e7YeEsLDO7ZTuDTLjsj6/view?usp=sharing"
+	  },
+	  {
+		"name": "Linux Tutorial",
+		"issuer": "Great Learning",
+		"url": "https://drive.google.com/file/d/1f3N87yaYQ2JOWOuANQLoaIMLuLTmnxTb/view?usp=drive_link"
+	  },
+	  {
+		"name": "Google IT Support Fundamentals",
+		"issuer": "Coursera",
+		"url": "https://drive.google.com/file/d/1f38_ijVbSx4u1u6LKxX0-ots0bc6Ghm_/view?usp=drive_link"
+	  },
+	  {
+		"name": "Blockchain Technology & Management",
+		"issuer": "Amity",
+		"url": "https://drive.google.com/file/d/1tL9EaqSLkppThOKMS8hZj86VjnNUB7yL/view?usp=drive_link"
+	  },
+	  {
+		"name": "Python",
+		"issuer": "LinkedIn",
+		"url": "https://drive.google.com/file/d/1yuZM-2AQ3b9s521GHhi-x-W3W00q0T9U/view?usp=drive_link"
+	  },
+	  {
+		"name": "Web Development",
+		"issuer": "Internshala",
+		"url": "https://drive.google.com/file/d/1NE26c-YzgGC5U7WaYJQ2N5eJXBsmFf0q/view?usp=drive_link"
+	  },
+	  {
+		"name": "GDG DevFest India",
+		"issuer": "Google Developer Groups",
+		"url": "https://drive.google.com/file/d/1Smw3FV3lnfzOEjZm5XoeEvEScTAQS_rb/view?usp=drive_link"
+	  },
+	  {
+		"name": "Startup India Learning Program",
+		"issuer": "upGrad",
+		"url": "https://drive.google.com/file/d/1G4QoTBoeWYWNAigf8RuV6lKr11G0EA5H/view?usp=sharing"
+	  },
+	  {
+		"name": "Overview of Web GIS Technology",
+		"issuer": "ISRO - IIRS",
+		"url": "https://drive.google.com/file/d/1P5GkSUyShQPiZ1HLM61fFERv8E8eqocQ/view?usp=sharing"
+	  },
+	  {
+		"name": "Computer Basic Exam",
+		"issuer": "Techview Team",
+		"url": "https://drive.google.com/file/d/1b3amrdKI32irN5zOiQY6LZqeuUGhBIhg/view?usp=drive_link"
+	  },
+	  {
+		"name": "The Complete Python Pro Bootcamp",
+		"issuer": "Udemy",
+		"url": "https://drive.google.com/file/d/18VgHU3pZaKpv-oxV8mIrBljcmq3wnQsa/view?usp=drive_link"
+	  }
+	]
+  ,
+
+  "achievements": [
+	  {
+		"title": "Catalyst in Client Engagement Award",
+		"organization": "Workelevate",
+		"date": "2025-01-25"
+	  },
+	  {
+		"title": "Best Personality Award",
+		"organization": "Farewell - Campus Event",
+		"date": "2023-05-7"
+	  }
+	],
+
+	"languages": [
+	  {
+		"language": "English",
+		"level": "C1",
+		"proficiency": "Fluent / Professional"
+	  },
+	  {
+		"language": "Hindi",
+		"level": "Native",
+		"proficiency": "Native"
+	  },
+	  {
+		"language": "Korean",
+		"level": "A1",
+		"proficiency": "Beginner"
+	  }
+	]
+
+}
